@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="A practical CSS library with copy-ready snippets and a live CSS playground.">
+  <title>CSS Lab — Cascading Style Sheets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="CSS Lab home"><span class="brand-mark">{ }</span><span>CSS<span class="brand-light">LAB</span></span></a>
+    <nav class="nav-links"><a href="#library">Library</a><a href="#playground">Playground</a><a href="#about">About</a></nav>
+    <a class="github-link" href="https://github.com/EverlastingUc/Cascading-Style-Sheets" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> THE CSS TOOLKIT FOR BUILDERS</div>
+      <h1>Make the web<br><span class="gradient-text">look extraordinary.</span></h1>
+      <p class="hero-copy">A growing collection of practical CSS patterns, effects and components. Explore, copy, experiment — all in one place.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#library">Explore the library <span>↓</span></a><a class="button button-quiet" href="#playground">Open playground <span>↗</span></a></div>
+      <div class="hero-meta"><span><b id="snippet-count">—</b> snippets</span><i></i><span>Vanilla CSS</span><i></i><span>No build step</span></div>
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+    </section>
+
+    <section class="section library-section" id="library">
+      <div class="section-heading"><div><div class="eyebrow">01 / THE COLLECTION</div><h2>CSS, within reach.</h2><p>Find a pattern. Understand it. Make it yours.</p></div><div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search snippets..." aria-label="Search snippets"><kbd>/</kbd></div></div>
+      <div class="category-row" id="categories" aria-label="Snippet categories"></div>
+      <div class="snippet-grid" id="snippet-grid"><div class="loading">Loading the collection…</div></div>
+      <div class="empty-state" id="empty-state" hidden>No snippets found. Try another search or category.</div>
+    </section>
+
+    <section class="section playground-section" id="playground">
+      <div class="section-heading"><div><div class="eyebrow">02 / EXPERIMENT</div><h2>Your CSS playground.</h2><p>Edit the code and see the result instantly. Nothing to install.</p></div><div class="playground-actions"><button class="button button-quiet small" id="reset-editor">Reset</button><button class="button button-primary small" id="run-code">Run preview <span>▶</span></button></div></div>
+      <div class="playground">
+        <div class="editor-panel">
+          <div class="panel-top"><span><i class="dot dot-html"></i> HTML</span><span class="panel-hint">EDITABLE</span></div>
+          <textarea id="html-editor" spellcheck="false" aria-label="HTML editor"></textarea>
+          <div class="panel-top css-panel-top"><span><i class="dot dot-css"></i> CSS</span><span class="panel-hint">LIVE STYLES</span></div>
+          <textarea id="css-editor" spellcheck="false" aria-label="CSS editor"></textarea>
+          <div class="editor-footer"><span id="editor-status">Ready to experiment</span><button id="copy-css" class="text-button">Copy CSS ↗</button></div>
+        </div>
+        <div class="preview-panel"><div class="panel-top"><span><i class="preview-dot"></i> LIVE PREVIEW</span><span class="panel-hint">SANDBOXED</span></div><iframe id="preview" title="CSS playground preview" sandbox="allow-scripts"></iframe><div class="preview-footer"><span>Changes appear when you run the preview.</span><span>HTML + CSS</span></div></div>
+      </div>
+      <p class="playground-note">Tip: choose any snippet above and load it into the playground to experiment with it.</p>
+    </section>
+
+    <section class="section principles" id="about"><div class="eyebrow">03 / BUILT FOR LEARNING</div><h2>Small patterns.<br><span class="gradient-text">Big possibilities.</span></h2><div class="principle-grid"><article><span class="principle-icon">⌘</span><h3>Copy-ready</h3><p>Practical, focused examples you can adapt and use in real projects.</p></article><article><span class="principle-icon">◉</span><h3>Learn by doing</h3><p>Explore the code, change values and understand what each property does.</p></article><article><span class="principle-icon">↗</span><h3>Open by design</h3><p>Plain HTML, CSS and JavaScript. No frameworks, dependencies or build tools.</p></article></div></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#"><span class="brand-mark">{ }</span><span>CSS<span class="brand-light">LAB</span></span></a><span>A community-minded CSS collection.</span><a href="https://github.com/EverlastingUc/Cascading-Style-Sheets" target="_blank" rel="noreferrer">Contribute on GitHub ↗</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
