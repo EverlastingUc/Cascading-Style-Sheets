@@ -6,7 +6,9 @@ A growing, copy-ready CSS library with an interactive playground. Explore practi
 
 ## Features
 
-- **CSS snippet library** — categorized examples covering layout, typography, effects, interactions, animations, forms and accessibility.
+**New:** The library now contains **1,000 CSS examples** across 54 pattern families. Read the [Complete CSS Guide](CSS-GUIDE.md) for a structured tutorial from CSS fundamentals through modern techniques.
+
+- **CSS snippet library** — 1,000 categorized examples covering layout, typography, effects, interactions, animations, forms and accessibility.
 - **Search and category filters** — find patterns by title, description, category or keyword.
 - **Copy-ready code** — copy an individual snippet with one click.
 - **Live playground** — edit HTML and CSS, then run a sandboxed preview.
