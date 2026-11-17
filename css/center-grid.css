@@ -1,0 +1,14 @@
+/* Perfect Centering
+ * Center any element horizontally and vertically with CSS Grid.
+ * Category: Layout
+ * Source ID: center-grid
+ */
+
+.center-box {
+  display: grid;
+  place-items: center;
+  min-height: 180px;
+  border: 1px dashed #a4f06a;
+  border-radius: 12px;
+  color: #a4f06a;
+}

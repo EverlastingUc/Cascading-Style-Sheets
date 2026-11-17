@@ -1,0 +1,8 @@
+/* Backdrop Blur
+ * Blur the content behind a translucent overlay.
+ * Category: Effects
+ * Source ID: backdrop
+ */
+
+.backdrop-scene { min-height: 140px; display: grid; place-items: center; padding: 15px; border-radius: 12px; background: repeating-linear-gradient(45deg,#263b5a 0 12px,#476a63 12px 24px); }
+.backdrop-panel { padding: 18px 25px; color: white; background: #ffffff30; border: 1px solid #ffffff66; border-radius: 10px; backdrop-filter: blur(8px); }

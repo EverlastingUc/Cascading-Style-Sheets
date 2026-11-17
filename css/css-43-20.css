@@ -1,0 +1,7 @@
+/* Animation direction 20
+ * Control how keyframes play. Practical variation 20.
+ * Category: Animations
+ * Source ID: css-43-20
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  animation-direction: alternate-reverse;\n}

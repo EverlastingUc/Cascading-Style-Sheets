@@ -1,0 +1,15 @@
+/* Glassmorphism Card
+ * Create a translucent frosted-glass surface.
+ * Category: Effects
+ * Source ID: glass-card
+ */
+
+.glass-wrap { padding: 35px; background: linear-gradient(120deg, #253c62, #6b3975); border-radius: 14px; }
+.glass-card {
+  padding: 25px;
+  color: white;
+  background: #ffffff20;
+  border: 1px solid #ffffff55;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+}

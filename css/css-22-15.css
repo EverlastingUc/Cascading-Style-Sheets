@@ -1,0 +1,7 @@
+/* Border radius 15
+ * Shape cards, pills and soft UI elements. Practical variation 15.
+ * Category: Borders
+ * Source ID: css-22-15
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  border-radius: 8px;\n}

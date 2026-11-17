@@ -1,0 +1,7 @@
+/* Text shadow 11
+ * Add subtle depth to type. Practical variation 11.
+ * Category: Shadows
+ * Source ID: css-29-11
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  text-shadow: 0 11px 32px rgba(0,0,0,.35);\n}

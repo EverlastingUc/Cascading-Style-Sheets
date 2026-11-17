@@ -1,0 +1,8 @@
+/* Spin Animation
+ * A reusable continuous rotation animation.
+ * Category: Animations
+ * Source ID: spin
+ */
+
+.spinner { width: 52px; height: 52px; border: 5px solid #344258; border-top-color: #a4f06a; border-radius: 50%; animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }

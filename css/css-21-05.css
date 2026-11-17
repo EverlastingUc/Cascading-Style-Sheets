@@ -1,0 +1,7 @@
+/* Background positions 05
+ * Place background images and gradients. Practical variation 5.
+ * Category: Backgrounds
+ * Source ID: css-21-05
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background-position: right;\n}

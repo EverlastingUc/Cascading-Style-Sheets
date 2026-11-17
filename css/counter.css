@@ -1,0 +1,9 @@
+/* CSS Counter
+ * Automatically number repeated elements with counters.
+ * Category: Typography
+ * Source ID: counter
+ */
+
+.steps { list-style: none; counter-reset: step; padding: 0; color: #eaf0f8; }
+.steps li { counter-increment: step; margin: 8px 0; }
+.steps li::before { content: counter(step, decimal-leading-zero); color: #a4f06a; font: 11px 'monospace'; margin-right: 12px; }

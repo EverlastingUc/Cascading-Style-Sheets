@@ -1,0 +1,7 @@
+/* Repeating stripes 07
+ * Generate patterns without image assets. Practical variation 7.
+ * Category: Backgrounds
+ * Source ID: css-20-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background: repeating-linear-gradient(54deg, #26364c 0 10px, #111827 10px 22px);\n}

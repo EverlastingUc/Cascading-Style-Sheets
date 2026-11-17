@@ -1,0 +1,9 @@
+/* Container Query
+ * Let a component respond to its own container width.
+ * Category: Layout
+ * Source ID: container-query
+ */
+
+.container-demo { container-type: inline-size; resize: horizontal; overflow: auto; width: 100%; max-width: 340px; padding: 10px; border: 1px dashed #52647c; }
+.container-card { padding: 16px; background: #18243a; border-radius: 8px; }
+@container (min-width: 260px) { .container-card { background: #243d2c; color: #caffaa; } }

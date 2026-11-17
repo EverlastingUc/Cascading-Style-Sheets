@@ -1,0 +1,7 @@
+/* Grid gaps 18
+ * Set consistent spacing between tracks. Practical variation 18.
+ * Category: Layout
+ * Source ID: css-9-18
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  gap: 72px;\n}

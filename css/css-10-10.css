@@ -1,0 +1,7 @@
+/* Grid row sizing 10
+ * Control grid row heights. Practical variation 10.
+ * Category: Layout
+ * Source ID: css-10-10
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  grid-auto-rows: min-content;\n}

@@ -1,0 +1,7 @@
+/* Clip path shapes 07
+ * Cut elements into geometric silhouettes. Practical variation 7.
+ * Category: Effects
+ * Source ID: css-35-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  clip-path: polygon(11% 0, 100% 11%, 89% 100%, 0 89%);\n}

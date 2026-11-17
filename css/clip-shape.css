@@ -1,0 +1,7 @@
+/* Clip-path Shape
+ * Create geometric shapes without image assets.
+ * Category: Effects
+ * Source ID: clip-shape
+ */
+
+.clip-shape { width: 120px; height: 100px; background: linear-gradient(135deg,#a4f06a,#73d9df); clip-path: polygon(50% 0, 100% 100%, 0 100%); }

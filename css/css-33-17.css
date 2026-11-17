@@ -1,0 +1,7 @@
+/* Blend modes 17
+ * Mix visual layers with blend modes. Practical variation 17.
+ * Category: Effects
+ * Source ID: css-33-17
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  mix-blend-mode: soft-light;\n}

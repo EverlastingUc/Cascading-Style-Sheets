@@ -1,0 +1,7 @@
+/* Flex justification 11
+ * Distribute free space between flex items. Practical variation 11.
+ * Category: Layout
+ * Source ID: css-4-11
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  justify-content: center;\n}

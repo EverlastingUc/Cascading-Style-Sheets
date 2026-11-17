@@ -1,0 +1,14 @@
+/* Sticky Header
+ * Keep navigation visible while the page scrolls.
+ * Category: Layout
+ * Source ID: sticky-header
+ */
+
+.sticky-demo {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 18px;
+  background: #18243a;
+  border-bottom: 2px solid #a4f06a;
+}

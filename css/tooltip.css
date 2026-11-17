@@ -1,0 +1,9 @@
+/* CSS Tooltip
+ * Show helpful context on hover and focus.
+ * Category: Interactions
+ * Source ID: tooltip
+ */
+
+.tip { position: relative; padding: 12px 16px; border: 1px solid #52647c; border-radius: 8px; background: #18243a; color: white; }
+.tip::after { content: attr(data-tip); position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translate(-50%, 4px); padding: 7px 9px; border-radius: 6px; background: #a4f06a; color: #10170c; font-size: 11px; white-space: nowrap; opacity: 0; pointer-events: none; transition: .2s; }
+.tip:hover::after, .tip:focus-visible::after { opacity: 1; transform: translate(-50%, 0); }

@@ -1,0 +1,7 @@
+/* Fluid font sizes 02
+ * Scale text smoothly with viewport width. Practical variation 2.
+ * Category: Typography
+ * Source ID: css-11-02
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  font-size: clamp(13px, 1.2vw, 26px);\n}

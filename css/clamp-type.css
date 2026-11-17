@@ -1,0 +1,11 @@
+/* Fluid Typography
+ * Scale text smoothly between viewport sizes.
+ * Category: Typography
+ * Source ID: clamp-type
+ */
+
+.fluid-title {
+  font-size: clamp(2rem, 7vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+}

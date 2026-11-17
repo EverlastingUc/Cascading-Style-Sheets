@@ -1,0 +1,10 @@
+/* Skeleton Loading
+ * A shimmer placeholder for loading content.
+ * Category: Animations
+ * Source ID: skeleton
+ */
+
+.skeleton-card { width: 180px; padding: 14px; background: #18243a; border-radius: 10px; }
+.skeleton-card div,.skeleton-card span { display: block; border-radius: 6px; background: linear-gradient(90deg,#26364c 25%,#40536b 50%,#26364c 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+.skeleton-card div { height: 55px; margin-bottom: 12px; } .skeleton-card span { height: 8px; margin-top: 7px; width: 80%; }
+@keyframes shimmer { to { background-position: -200% 0; } }

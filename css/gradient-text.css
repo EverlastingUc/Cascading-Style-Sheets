@@ -1,0 +1,12 @@
+/* Gradient Text
+ * Apply a vibrant gradient to text.
+ * Category: Typography
+ * Source ID: gradient-text
+ */
+
+.gradient-type {
+  background: linear-gradient(90deg, #a4f06a, #73d9df, #a78bfa);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}

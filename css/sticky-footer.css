@@ -1,0 +1,9 @@
+/* Flex Sticky Footer
+ * Push a footer to the bottom on short pages.
+ * Category: Layout
+ * Source ID: sticky-footer
+ */
+
+.page-shell { min-height: 190px; display: flex; flex-direction: column; padding: 12px; background: #18243a; border-radius: 10px; }
+.page-shell header,.page-shell footer { padding: 10px; background: #26364c; }
+.page-shell main { flex: 1; padding: 12px; }

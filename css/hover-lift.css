@@ -1,0 +1,14 @@
+/* Hover Lift
+ * Lift a card gently when the pointer enters.
+ * Category: Interactions
+ * Source ID: hover-lift
+ */
+
+.lift-card {
+  padding: 28px;
+  border: 1px solid #42516a;
+  border-radius: 12px;
+  background: #18243a;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.lift-card:hover { transform: translateY(-7px); box-shadow: 0 14px 28px #0005; }

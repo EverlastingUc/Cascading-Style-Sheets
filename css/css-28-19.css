@@ -1,0 +1,7 @@
+/* Colored glow 19
+ * Create colored ambient glow effects. Practical variation 19.
+ * Category: Shadows
+ * Source ID: css-28-19
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  box-shadow: 0 0 98px 20px hsla(306, 85%, 65%, .55);\n}

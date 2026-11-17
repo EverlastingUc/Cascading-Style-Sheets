@@ -1,0 +1,7 @@
+/* Outline styles 04
+ * Add visible outlines without affecting layout. Practical variation 4.
+ * Category: Borders
+ * Source ID: css-24-04
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  outline: 4px double hsl(51 70% 65%);\n}

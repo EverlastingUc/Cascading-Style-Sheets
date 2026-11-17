@@ -1,0 +1,13 @@
+/* Flexbox Center
+ * A reliable flexbox centering pattern.
+ * Category: Layout
+ * Source ID: center-flex
+ */
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  border: 1px dashed #a4f06a;
+}

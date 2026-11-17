@@ -1,0 +1,7 @@
+/* Backdrop blur 20
+ * Blur content behind translucent overlays. Practical variation 20.
+ * Category: Effects
+ * Source ID: css-32-20
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  backdrop-filter: blur(42px) saturate(2.9000000000000004);\n}

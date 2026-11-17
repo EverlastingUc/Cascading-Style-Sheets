@@ -1,0 +1,7 @@
+/* Image filters 20
+ * Adjust image tone and contrast. Practical variation 20.
+ * Category: Effects
+ * Source ID: css-31-20
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  filter: saturate(2.02) contrast(1.28) brightness(1.2750000000000001);\n}

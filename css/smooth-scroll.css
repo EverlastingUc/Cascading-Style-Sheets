@@ -1,0 +1,9 @@
+/* Smooth Scrolling
+ * Enable smooth in-page navigation.
+ * Category: Interactions
+ * Source ID: smooth-scroll
+ */
+
+html { scroll-behavior: smooth; }
+.scroll-demo { height: 170px; overflow: auto; padding: 15px; background: #18243a; border-radius: 10px; }
+.scroll-space { height: 100px; }

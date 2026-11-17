@@ -1,0 +1,7 @@
+/* Blur filters 06
+ * Blur decorative elements. Practical variation 6.
+ * Category: Effects
+ * Source ID: css-30-06
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  filter: blur(5px);\n}

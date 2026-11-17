@@ -1,0 +1,8 @@
+/* Input Focus State
+ * Give form fields a clear focus treatment.
+ * Category: Forms
+ * Source ID: input-focus
+ */
+
+.pretty-input { width: 100%; max-width: 280px; padding: 13px 14px; border: 1px solid #52647c; border-radius: 9px; outline: none; background: #101827; color: white; }
+.pretty-input:focus { border-color: #a4f06a; box-shadow: 0 0 0 3px #a4f06a25; }

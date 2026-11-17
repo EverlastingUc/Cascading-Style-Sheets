@@ -1,0 +1,7 @@
+/* Linear gradient angles 10
+ * Create multi-tone linear gradients. Practical variation 10.
+ * Category: Backgrounds
+ * Source ID: css-17-10
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background: linear-gradient(162deg, hsl(153 70% 55%), hsl(243 75% 45%));\n}

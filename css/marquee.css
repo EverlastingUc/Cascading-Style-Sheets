@@ -1,0 +1,10 @@
+/* CSS Marquee
+ * Create a looping text ticker; pause it on hover.
+ * Category: Animations
+ * Source ID: marquee
+ */
+
+.ticker { width: 100%; overflow: hidden; color: #a4f06a; white-space: nowrap; font-weight: 800; }
+.ticker div { display: inline-block; animation: ticker 9s linear infinite; }
+.ticker:hover div { animation-play-state: paused; }
+@keyframes ticker { to { transform: translateX(-35%); } }

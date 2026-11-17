@@ -1,0 +1,14 @@
+/* Animated Underline
+ * Reveal an underline when a link is hovered.
+ * Category: Typography
+ * Source ID: underline-sweep
+ */
+
+.underline-link {
+  color: #f4f7fb;
+  text-decoration: none;
+  background: linear-gradient(#a4f06a, #a4f06a) left bottom / 0 2px no-repeat;
+  transition: background-size .25s ease;
+  padding-bottom: 5px;
+}
+.underline-link:hover { background-size: 100% 2px; }

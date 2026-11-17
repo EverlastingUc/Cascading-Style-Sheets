@@ -1,0 +1,7 @@
+/* Opacity 11
+ * Control transparency for overlays and states. Practical variation 11.
+ * Category: Effects
+ * Source ID: css-34-11
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  opacity: 0.550;\n}

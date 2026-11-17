@@ -1,0 +1,8 @@
+/* Accent Range Slider
+ * Use accent-color to theme native range controls.
+ * Category: Forms
+ * Source ID: range-slider
+ */
+
+.range-demo { display: grid; gap: 12px; color: #eaf0f8; font-size: 12px; width: 220px; }
+.range-demo input { width: 100%; accent-color: #a4f06a; cursor: pointer; }

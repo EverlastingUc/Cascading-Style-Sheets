@@ -1,0 +1,7 @@
+/* Border styles 10
+ * Explore border rendering options. Practical variation 10.
+ * Category: Borders
+ * Source ID: css-25-10
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  border-style: dashed;\n}

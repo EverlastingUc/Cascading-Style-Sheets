@@ -1,0 +1,7 @@
+/* Transform origins 18
+ * Choose the pivot point for transforms. Practical variation 18.
+ * Category: Interactions
+ * Source ID: css-39-18
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  transform-origin: bottom right;\n}

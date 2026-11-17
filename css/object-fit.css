@@ -1,0 +1,8 @@
+/* Image Object Fit
+ * Crop images consistently inside fixed dimensions.
+ * Category: Layout
+ * Source ID: object-fit
+ */
+
+.image-frame { width: 180px; height: 110px; overflow: hidden; border-radius: 10px; }
+.fake-image { width: 100%; height: 100%; display: grid; place-items: center; background: linear-gradient(130deg,#315a55,#273b68); color: white; font-weight: 800; object-fit: cover; }

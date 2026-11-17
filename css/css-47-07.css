@@ -1,0 +1,7 @@
+/* Input appearance 07
+ * Control native form control rendering. Practical variation 7.
+ * Category: Forms
+ * Source ID: css-47-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  appearance: none;\n}

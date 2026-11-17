@@ -1,0 +1,14 @@
+/* Neon Glow
+ * Build a glowing accent with box-shadow.
+ * Category: Effects
+ * Source ID: glow
+ */
+
+.glow-button {
+  padding: 13px 22px;
+  color: #a4f06a;
+  background: #172316;
+  border: 1px solid #a4f06a;
+  border-radius: 9px;
+  box-shadow: 0 0 8px #a4f06a66, 0 0 24px #a4f06a33;
+}

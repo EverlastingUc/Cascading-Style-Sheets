@@ -1,0 +1,7 @@
+/* Transition duration 01
+ * Tune the pace of state changes. Practical variation 1.
+ * Category: Interactions
+ * Source ID: css-37-01
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  transition-duration: 0.1s;\n}

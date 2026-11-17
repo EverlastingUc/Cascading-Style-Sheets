@@ -1,0 +1,8 @@
+/* Pulse Animation
+ * Draw attention with a soft pulsing scale.
+ * Category: Animations
+ * Source ID: pulse
+ */
+
+.pulse-dot { width: 48px; height: 48px; border-radius: 50%; background: #a4f06a; animation: pulse 1.5s ease-in-out infinite; }
+@keyframes pulse { 50% { transform: scale(1.22); opacity: .55; } }

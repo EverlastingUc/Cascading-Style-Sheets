@@ -1,0 +1,9 @@
+/* :has() Parent Selector
+ * Style a parent based on the state of its child.
+ * Category: Interactions
+ * Source ID: has-selector
+ */
+
+.has-card { display: flex; gap: 10px; align-items: center; padding: 20px; border: 1px solid #52647c; border-radius: 10px; color: #eaf0f8; }
+.has-card:has(input:checked) { border-color: #a4f06a; background: #a4f06a12; }
+.has-card input { accent-color: #a4f06a; }

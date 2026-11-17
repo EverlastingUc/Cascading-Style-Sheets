@@ -1,0 +1,8 @@
+/* Blend Mode Text
+ * Use mix-blend-mode for layered visual effects.
+ * Category: Effects
+ * Source ID: blend-mode
+ */
+
+.blend-stage { padding: 30px; background: linear-gradient(120deg, #e879f9, #67e8f9); }
+.blend-stage span { color: white; font-size: 34px; font-weight: 900; mix-blend-mode: difference; }

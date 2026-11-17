@@ -1,0 +1,7 @@
+/* Container widths 07
+ * Create readable responsive content widths. Practical variation 7.
+ * Category: Layout
+ * Source ID: css-6-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  width: min(100% - 48px, 720px);\n}

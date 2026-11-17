@@ -1,0 +1,7 @@
+/* Inset shadows 20
+ * Create recessed and pressed surfaces. Practical variation 20.
+ * Category: Shadows
+ * Source ID: css-27-20
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  box-shadow: inset 0 20px 61px rgba(0,0,0,0.59);\n}

@@ -1,0 +1,7 @@
+/* Transition duration 16
+ * Tune the pace of state changes. Practical variation 16.
+ * Category: Interactions
+ * Source ID: css-37-16
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  transition-duration: 1.1500000000000001s;\n}

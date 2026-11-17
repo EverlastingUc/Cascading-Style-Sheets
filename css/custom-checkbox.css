@@ -1,0 +1,8 @@
+/* Custom Checkbox
+ * Style a checkbox while preserving native semantics.
+ * Category: Forms
+ * Source ID: custom-checkbox
+ */
+
+.check-demo { display: flex; align-items: center; gap: 10px; color: #eaf0f8; font-size: 13px; }
+.check-demo input { width: 18px; height: 18px; accent-color: #a4f06a; }

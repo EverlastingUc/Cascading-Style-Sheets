@@ -1,0 +1,7 @@
+/* Accent color 14
+ * Theme native checkbox and range controls. Practical variation 14.
+ * Category: Forms
+ * Source ID: css-45-14
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  accent-color: hsl(234 75% 60%);\n}

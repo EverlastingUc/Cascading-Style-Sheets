@@ -1,0 +1,7 @@
+/* Text transforms 10
+ * Create consistent label treatments. Practical variation 10.
+ * Category: Typography
+ * Source ID: css-15-10
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  text-transform: lowercase;\n}

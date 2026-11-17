@@ -1,0 +1,12 @@
+/* Soft UI Shadow
+ * Subtle raised surface using layered shadows.
+ * Category: Effects
+ * Source ID: soft-shadow
+ */
+
+.soft-card {
+  padding: 30px;
+  border-radius: 18px;
+  background: #18243a;
+  box-shadow: 10px 10px 24px #080d16, -8px -8px 22px #263751;
+}

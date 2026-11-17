@@ -1,0 +1,7 @@
+/* Pointer cursors 02
+ * Communicate interaction affordances. Practical variation 2.
+ * Category: Interactions
+ * Source ID: css-40-02
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  cursor: grab;\n}

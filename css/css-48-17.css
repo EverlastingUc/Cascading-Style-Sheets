@@ -1,0 +1,7 @@
+/* Caret color 17
+ * Style the text input insertion caret. Practical variation 17.
+ * Category: Forms
+ * Source ID: css-48-17
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  caret-color: hsl(288 75% 60%);\n}

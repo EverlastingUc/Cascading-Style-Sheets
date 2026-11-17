@@ -1,0 +1,7 @@
+/* Text wrapping 19
+ * Improve line breaks in headings and paragraphs. Practical variation 19.
+ * Category: Typography
+ * Source ID: css-16-19
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  text-wrap: stable;\n}

@@ -1,0 +1,7 @@
+/* Grid auto-fit widths 04
+ * Fluid grid columns that wrap automatically. Practical variation 4.
+ * Category: Layout
+ * Source ID: css-2-04
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));\n}

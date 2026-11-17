@@ -1,0 +1,10 @@
+/* Soft Text Shadow
+ * Add depth to headings with layered shadows.
+ * Category: Typography
+ * Source ID: text-shadow
+ */
+
+.shadow-type {
+  color: #f4f7fb;
+  text-shadow: 0 2px 0 #61708a, 0 8px 24px #73d9df66;
+}

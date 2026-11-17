@@ -1,0 +1,7 @@
+/* Transform origins 07
+ * Choose the pivot point for transforms. Practical variation 7.
+ * Category: Interactions
+ * Source ID: css-39-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  transform-origin: bottom left;\n}

@@ -1,0 +1,7 @@
+/* Rounded Squircle
+ * Use large corner radii for a soft squircle-like surface.
+ * Category: Effects
+ * Source ID: squircle
+ */
+
+.squircle { width: 125px; height: 90px; display: grid; place-items: center; border-radius: 28px; background: linear-gradient(135deg,#a4f06a,#73d9df); color: #10170c; font-weight: 800; font-size: 12px; }

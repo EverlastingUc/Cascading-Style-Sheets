@@ -1,0 +1,9 @@
+/* Reduced Motion Safe
+ * Respect visitors who request less motion.
+ * Category: Accessibility
+ * Source ID: reduced-motion
+ */
+
+.motion-card { padding: 22px; background: #18243a; border-radius: 10px; animation: arrive .5s ease both; }
+@keyframes arrive { from { opacity: 0; transform: translateY(12px); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } }

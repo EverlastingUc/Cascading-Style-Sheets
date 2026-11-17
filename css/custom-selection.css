@@ -1,0 +1,10 @@
+/* Custom Selection
+ * Style the text highlight color.
+ * Category: Typography
+ * Source ID: custom-selection
+ */
+
+.selection-demo::selection {
+  color: #10170c;
+  background: #a4f06a;
+}

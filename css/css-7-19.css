@@ -1,0 +1,7 @@
+/* Sticky offsets 19
+ * Keep navigation and controls in view. Practical variation 19.
+ * Category: Layout
+ * Source ID: css-7-19
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  top: 72px;\n}

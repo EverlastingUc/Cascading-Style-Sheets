@@ -1,0 +1,14 @@
+/* Aspect Ratio Box
+ * Maintain consistent media proportions.
+ * Category: Layout
+ * Source ID: aspect-ratio
+ */
+
+.ratio-box {
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-items: center;
+  max-width: 360px;
+  background: #24344a;
+  border-radius: 12px;
+}

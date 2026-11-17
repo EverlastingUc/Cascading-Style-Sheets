@@ -1,0 +1,7 @@
+/* Color Scheme Support
+ * Adapt native form controls to the active color scheme.
+ * Category: Accessibility
+ * Source ID: dark-mode
+ */
+
+.scheme-demo { color: #eaf0f8; padding: 20px; background: #18243a; border-radius: 10px; color-scheme: dark; }

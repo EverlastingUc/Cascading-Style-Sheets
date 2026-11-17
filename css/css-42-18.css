@@ -1,0 +1,7 @@
+/* Animation delay 18
+ * Stagger repeated elements. Practical variation 18.
+ * Category: Animations
+ * Source ID: css-42-18
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo { animation: demo-motion 1s ease both; animation-delay: 1275ms; }\n@keyframes demo-motion { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; } }

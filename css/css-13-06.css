@@ -1,0 +1,7 @@
+/* Line height 06
+ * Improve readability with deliberate leading. Practical variation 6.
+ * Category: Typography
+ * Source ID: css-13-06
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  line-height: 1.45;\n}

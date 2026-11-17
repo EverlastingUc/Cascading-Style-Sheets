@@ -1,0 +1,7 @@
+/* Resize behavior 07
+ * Choose how textareas can be resized. Practical variation 7.
+ * Category: Forms
+ * Source ID: css-46-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  resize: horizontal;\n}

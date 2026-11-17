@@ -1,0 +1,12 @@
+/* Auto-fit Grid
+ * Responsive columns without writing media queries.
+ * Category: Layout
+ * Source ID: responsive-grid
+ */
+
+.grid-demo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+.grid-demo span { padding: 24px; background: #24344a; border-radius: 10px; }

@@ -1,0 +1,12 @@
+/* Gradient Border
+ * A crisp gradient border without extra elements.
+ * Category: Effects
+ * Source ID: gradient-border
+ */
+
+.gradient-border {
+  padding: 2px;
+  border-radius: 14px;
+  background: linear-gradient(120deg, #a4f06a, #73d9df);
+}
+.gradient-border > div { padding: 24px; border-radius: 12px; background: #101827; }

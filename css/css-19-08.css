@@ -1,0 +1,7 @@
+/* Conic gradient wheels 08
+ * Build circular color transitions. Practical variation 8.
+ * Category: Backgrounds
+ * Source ID: css-19-08
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background: conic-gradient(from 126deg, hsl(91 75% 60%), hsl(211 75% 55%), hsl(331 75% 55%));\n}

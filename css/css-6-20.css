@@ -1,0 +1,7 @@
+/* Container widths 20
+ * Create readable responsive content widths. Practical variation 20.
+ * Category: Layout
+ * Source ID: css-6-20
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  width: min(100% - 100px, 1240px);\n}

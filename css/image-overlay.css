@@ -1,0 +1,15 @@
+/* Image Overlay
+ * Layer a readable gradient over an image.
+ * Category: Effects
+ * Source ID: image-overlay
+ */
+
+.image-overlay {
+  min-height: 150px;
+  display: flex;
+  align-items: end;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(0deg, #090b10, transparent), linear-gradient(120deg, #315a55, #273b68);
+  color: white; font-weight: 800;
+}

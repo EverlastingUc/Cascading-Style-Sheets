@@ -1,0 +1,7 @@
+/* Animation duration 03
+ * Tune keyframe playback duration. Practical variation 3.
+ * Category: Animations
+ * Source ID: css-41-03
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo { animation: demo-motion 0.6s ease-in-out infinite alternate; }\n@keyframes demo-motion { to { transform: translateY(-12px) rotate(3deg); } }

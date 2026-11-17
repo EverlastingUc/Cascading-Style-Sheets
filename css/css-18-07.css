@@ -1,0 +1,7 @@
+/* Radial gradient positions 07
+ * Create spotlight backgrounds. Practical variation 7.
+ * Category: Backgrounds
+ * Source ID: css-18-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background: radial-gradient(circle at 29% 71%, hsl(102 80% 65%), #111827 70%);\n}

@@ -1,0 +1,7 @@
+/* Elevation shadows 15
+ * Create depth with layered shadows. Practical variation 15.
+ * Category: Shadows
+ * Source ID: css-26-15
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  box-shadow: 0 30px 76px rgba(0,0,0,0.37);\n}

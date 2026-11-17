@@ -1,0 +1,7 @@
+/* Asymmetric corners 07
+ * Create distinctive corner combinations. Practical variation 7.
+ * Category: Borders
+ * Source ID: css-23-07
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  border-radius: 12px 24px 18px 30px;\n}

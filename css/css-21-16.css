@@ -1,0 +1,7 @@
+/* Background positions 16
+ * Place background images and gradients. Practical variation 16.
+ * Category: Backgrounds
+ * Source ID: css-21-16
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background-position: top;\n}

@@ -1,0 +1,7 @@
+/* Repeating stripes 13
+ * Generate patterns without image assets. Practical variation 13.
+ * Category: Backgrounds
+ * Source ID: css-20-13
+ */
+
+.demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\n.demo {\n  background: repeating-linear-gradient(108deg, #26364c 0 16px, #111827 16px 34px);\n}

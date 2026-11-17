@@ -1,0 +1,10 @@
+/* Custom Scrollbar
+ * Style scrollbars where the browser supports it.
+ * Category: Effects
+ * Source ID: custom-scrollbar
+ */
+
+.scrollbox { height: 125px; overflow: auto; padding: 14px; background: #18243a; border-radius: 9px; color: #cbd5e1; font-size: 12px; }
+.scrollbox::-webkit-scrollbar { width: 8px; }
+.scrollbox::-webkit-scrollbar-track { background: #101827; }
+.scrollbox::-webkit-scrollbar-thumb { background: #627b5a; border-radius: 9px; }
