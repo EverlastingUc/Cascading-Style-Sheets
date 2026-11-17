@@ -11,7 +11,7 @@
       "layout"
     ],
     "html": "<div class=\"center-box\">Centered</div>",
-    "css": ".center-box {\\n  display: grid;\\n  place-items: center;\\n  min-height: 180px;\\n  border: 1px dashed #a4f06a;\\n  border-radius: 12px;\\n  color: #a4f06a;\\n}"
+    "css": ".center-box {\n  display: grid;\n  place-items: center;\n  min-height: 180px;\n  border: 1px dashed #a4f06a;\n  border-radius: 12px;\n  color: #a4f06a;\n}"
   },
   {
     "id": "center-flex",
@@ -24,7 +24,7 @@
       "center"
     ],
     "html": "<div class=\"flex-box\">Centered with Flexbox</div>",
-    "css": ".flex-box {\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  min-height: 180px;\\n  border: 1px dashed #a4f06a;\\n}"
+    "css": ".flex-box {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  min-height: 180px;\n  border: 1px dashed #a4f06a;\n}"
   },
   {
     "id": "responsive-grid",
@@ -37,7 +37,7 @@
       "responsive"
     ],
     "html": "<div class=\"grid-demo\"><span>One</span><span>Two</span><span>Three</span></div>",
-    "css": ".grid-demo {\\n  display: grid;\\n  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));\\n  gap: 12px;\\n}\\n.grid-demo span { padding: 24px; background: #24344a; border-radius: 10px; }"
+    "css": ".grid-demo {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));\n  gap: 12px;\n}\n.grid-demo span { padding: 24px; background: #24344a; border-radius: 10px; }"
   },
   {
     "id": "sticky-header",
@@ -50,7 +50,7 @@
       "header"
     ],
     "html": "<header class=\"sticky-demo\">Sticky navigation</header>",
-    "css": ".sticky-demo {\\n  position: sticky;\\n  top: 0;\\n  z-index: 10;\\n  padding: 18px;\\n  background: #18243a;\\n  border-bottom: 2px solid #a4f06a;\\n}"
+    "css": ".sticky-demo {\n  position: sticky;\n  top: 0;\n  z-index: 10;\n  padding: 18px;\n  background: #18243a;\n  border-bottom: 2px solid #a4f06a;\n}"
   },
   {
     "id": "aspect-ratio",
@@ -63,7 +63,7 @@
       "responsive"
     ],
     "html": "<div class=\"ratio-box\">16:9</div>",
-    "css": ".ratio-box {\\n  aspect-ratio: 16 / 9;\\n  display: grid;\\n  place-items: center;\\n  max-width: 360px;\\n  background: #24344a;\\n  border-radius: 12px;\\n}"
+    "css": ".ratio-box {\n  aspect-ratio: 16 / 9;\n  display: grid;\n  place-items: center;\n  max-width: 360px;\n  background: #24344a;\n  border-radius: 12px;\n}"
   },
   {
     "id": "clamp-type",
@@ -77,7 +77,7 @@
       "font"
     ],
     "html": "<h1 class=\"fluid-title\">Fluid type</h1>",
-    "css": ".fluid-title {\\n  font-size: clamp(2rem, 7vw, 5rem);\\n  line-height: 1.05;\\n  letter-spacing: -0.06em;\\n}"
+    "css": ".fluid-title {\n  font-size: clamp(2rem, 7vw, 5rem);\n  line-height: 1.05;\n  letter-spacing: -0.06em;\n}"
   },
   {
     "id": "gradient-text",
@@ -90,7 +90,7 @@
       "text"
     ],
     "html": "<h1 class=\"gradient-type\">Color in type</h1>",
-    "css": ".gradient-type {\\n  background: linear-gradient(90deg, #a4f06a, #73d9df, #a78bfa);\\n  color: transparent;\\n  background-clip: text;\\n  -webkit-background-clip: text;\\n}"
+    "css": ".gradient-type {\n  background: linear-gradient(90deg, #a4f06a, #73d9df, #a78bfa);\n  color: transparent;\n  background-clip: text;\n  -webkit-background-clip: text;\n}"
   },
   {
     "id": "text-shadow",
@@ -103,7 +103,7 @@
       "heading"
     ],
     "html": "<h1 class=\"shadow-type\">Depth</h1>",
-    "css": ".shadow-type {\\n  color: #f4f7fb;\\n  text-shadow: 0 2px 0 #61708a, 0 8px 24px #73d9df66;\\n}"
+    "css": ".shadow-type {\n  color: #f4f7fb;\n  text-shadow: 0 2px 0 #61708a, 0 8px 24px #73d9df66;\n}"
   },
   {
     "id": "underline-sweep",
@@ -117,7 +117,7 @@
       "animation"
     ],
     "html": "<a class=\"underline-link\" href=\"#\">Hover this link</a>",
-    "css": ".underline-link {\\n  color: #f4f7fb;\\n  text-decoration: none;\\n  background: linear-gradient(#a4f06a, #a4f06a) left bottom / 0 2px no-repeat;\\n  transition: background-size .25s ease;\\n  padding-bottom: 5px;\\n}\\n.underline-link:hover { background-size: 100% 2px; }"
+    "css": ".underline-link {\n  color: #f4f7fb;\n  text-decoration: none;\n  background: linear-gradient(#a4f06a, #a4f06a) left bottom / 0 2px no-repeat;\n  transition: background-size .25s ease;\n  padding-bottom: 5px;\n}\n.underline-link:hover { background-size: 100% 2px; }"
   },
   {
     "id": "custom-selection",
@@ -130,7 +130,7 @@
       "highlight"
     ],
     "html": "<p class=\"selection-demo\">Select this sentence to see the custom highlight.</p>",
-    "css": ".selection-demo::selection {\\n  color: #10170c;\\n  background: #a4f06a;\\n}"
+    "css": ".selection-demo::selection {\n  color: #10170c;\n  background: #a4f06a;\n}"
   },
   {
     "id": "glass-card",
@@ -144,7 +144,7 @@
       "backdrop"
     ],
     "html": "<div class=\"glass-wrap\"><div class=\"glass-card\">Frosted glass</div></div>",
-    "css": ".glass-wrap { padding: 35px; background: linear-gradient(120deg, #253c62, #6b3975); border-radius: 14px; }\\n.glass-card {\\n  padding: 25px;\\n  color: white;\\n  background: #ffffff20;\\n  border: 1px solid #ffffff55;\\n  border-radius: 12px;\\n  backdrop-filter: blur(12px);\\n}"
+    "css": ".glass-wrap { padding: 35px; background: linear-gradient(120deg, #253c62, #6b3975); border-radius: 14px; }\n.glass-card {\n  padding: 25px;\n  color: white;\n  background: #ffffff20;\n  border: 1px solid #ffffff55;\n  border-radius: 12px;\n  backdrop-filter: blur(12px);\n}"
   },
   {
     "id": "soft-shadow",
@@ -157,7 +157,7 @@
       "neumorphism"
     ],
     "html": "<div class=\"soft-card\">Soft surface</div>",
-    "css": ".soft-card {\\n  padding: 30px;\\n  border-radius: 18px;\\n  background: #18243a;\\n  box-shadow: 10px 10px 24px #080d16, -8px -8px 22px #263751;\\n}"
+    "css": ".soft-card {\n  padding: 30px;\n  border-radius: 18px;\n  background: #18243a;\n  box-shadow: 10px 10px 24px #080d16, -8px -8px 22px #263751;\n}"
   },
   {
     "id": "gradient-border",
@@ -170,7 +170,7 @@
       "gradient"
     ],
     "html": "<div class=\"gradient-border\"><div>Gradient border</div></div>",
-    "css": ".gradient-border {\\n  padding: 2px;\\n  border-radius: 14px;\\n  background: linear-gradient(120deg, #a4f06a, #73d9df);\\n}\\n.gradient-border > div { padding: 24px; border-radius: 12px; background: #101827; }"
+    "css": ".gradient-border {\n  padding: 2px;\n  border-radius: 14px;\n  background: linear-gradient(120deg, #a4f06a, #73d9df);\n}\n.gradient-border > div { padding: 24px; border-radius: 12px; background: #101827; }"
   },
   {
     "id": "glow",
@@ -184,7 +184,7 @@
       "shadow"
     ],
     "html": "<button class=\"glow-button\">Glow effect</button>",
-    "css": ".glow-button {\\n  padding: 13px 22px;\\n  color: #a4f06a;\\n  background: #172316;\\n  border: 1px solid #a4f06a;\\n  border-radius: 9px;\\n  box-shadow: 0 0 8px #a4f06a66, 0 0 24px #a4f06a33;\\n}"
+    "css": ".glow-button {\n  padding: 13px 22px;\n  color: #a4f06a;\n  background: #172316;\n  border: 1px solid #a4f06a;\n  border-radius: 9px;\n  box-shadow: 0 0 8px #a4f06a66, 0 0 24px #a4f06a33;\n}"
   },
   {
     "id": "image-overlay",
@@ -198,7 +198,7 @@
       "gradient"
     ],
     "html": "<div class=\"image-overlay\"><span>Explore the unknown</span></div>",
-    "css": ".image-overlay {\\n  min-height: 150px;\\n  display: flex;\\n  align-items: end;\\n  padding: 20px;\\n  border-radius: 12px;\\n  background: linear-gradient(0deg, #090b10, transparent), linear-gradient(120deg, #315a55, #273b68);\\n  color: white; font-weight: 800;\\n}"
+    "css": ".image-overlay {\n  min-height: 150px;\n  display: flex;\n  align-items: end;\n  padding: 20px;\n  border-radius: 12px;\n  background: linear-gradient(0deg, #090b10, transparent), linear-gradient(120deg, #315a55, #273b68);\n  color: white; font-weight: 800;\n}"
   },
   {
     "id": "blend-mode",
@@ -211,7 +211,7 @@
       "mix-blend-mode"
     ],
     "html": "<div class=\"blend-stage\"><span>BLEND</span></div>",
-    "css": ".blend-stage { padding: 30px; background: linear-gradient(120deg, #e879f9, #67e8f9); }\\n.blend-stage span { color: white; font-size: 34px; font-weight: 900; mix-blend-mode: difference; }"
+    "css": ".blend-stage { padding: 30px; background: linear-gradient(120deg, #e879f9, #67e8f9); }\n.blend-stage span { color: white; font-size: 34px; font-weight: 900; mix-blend-mode: difference; }"
   },
   {
     "id": "hover-lift",
@@ -225,7 +225,7 @@
       "card"
     ],
     "html": "<div class=\"lift-card\">Hover over me</div>",
-    "css": ".lift-card {\\n  padding: 28px;\\n  border: 1px solid #42516a;\\n  border-radius: 12px;\\n  background: #18243a;\\n  transition: transform .2s ease, box-shadow .2s ease;\\n}\\n.lift-card:hover { transform: translateY(-7px); box-shadow: 0 14px 28px #0005; }"
+    "css": ".lift-card {\n  padding: 28px;\n  border: 1px solid #42516a;\n  border-radius: 12px;\n  background: #18243a;\n  transition: transform .2s ease, box-shadow .2s ease;\n}\n.lift-card:hover { transform: translateY(-7px); box-shadow: 0 14px 28px #0005; }"
   },
   {
     "id": "button-press",
@@ -239,7 +239,7 @@
       "hover"
     ],
     "html": "<button class=\"press-button\">Press me</button>",
-    "css": ".press-button {\\n  padding: 13px 20px; border: 0; border-radius: 9px;\\n  background: #a4f06a; color: #10170c; font-weight: 800;\\n  box-shadow: 0 5px 0 #5e9a36; transition: transform .1s, box-shadow .1s;\\n}\\n.press-button:active { transform: translateY(4px); box-shadow: 0 1px 0 #5e9a36; }"
+    "css": ".press-button {\n  padding: 13px 20px; border: 0; border-radius: 9px;\n  background: #a4f06a; color: #10170c; font-weight: 800;\n  box-shadow: 0 5px 0 #5e9a36; transition: transform .1s, box-shadow .1s;\n}\n.press-button:active { transform: translateY(4px); box-shadow: 0 1px 0 #5e9a36; }"
   },
   {
     "id": "focus-ring",
@@ -253,7 +253,7 @@
       "outline"
     ],
     "html": "<button class=\"focus-button\">Tab to focus me</button>",
-    "css": ".focus-button { padding: 12px 18px; border: 1px solid #718096; border-radius: 8px; background: #18243a; color: white; }\\n.focus-button:focus-visible { outline: 3px solid #a4f06a; outline-offset: 4px; }"
+    "css": ".focus-button { padding: 12px 18px; border: 1px solid #718096; border-radius: 8px; background: #18243a; color: white; }\n.focus-button:focus-visible { outline: 3px solid #a4f06a; outline-offset: 4px; }"
   },
   {
     "id": "smooth-scroll",
@@ -266,7 +266,7 @@
       "navigation"
     ],
     "html": "<div class=\"scroll-demo\"><a href=\"#scroll-end\">Jump down ↓</a><div class=\"scroll-space\"></div><span id=\"scroll-end\">You made it.</span></div>",
-    "css": "html { scroll-behavior: smooth; }\\n.scroll-demo { height: 170px; overflow: auto; padding: 15px; background: #18243a; border-radius: 10px; }\\n.scroll-space { height: 100px; }"
+    "css": "html { scroll-behavior: smooth; }\n.scroll-demo { height: 170px; overflow: auto; padding: 15px; background: #18243a; border-radius: 10px; }\n.scroll-space { height: 100px; }"
   },
   {
     "id": "tooltip",
@@ -280,7 +280,7 @@
       "after"
     ],
     "html": "<button class=\"tip\" data-tip=\"A helpful little hint\">Hover or focus</button>",
-    "css": ".tip { position: relative; padding: 12px 16px; border: 1px solid #52647c; border-radius: 8px; background: #18243a; color: white; }\\n.tip::after { content: attr(data-tip); position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translate(-50%, 4px); padding: 7px 9px; border-radius: 6px; background: #a4f06a; color: #10170c; font-size: 11px; white-space: nowrap; opacity: 0; pointer-events: none; transition: .2s; }\\n.tip:hover::after, .tip:focus-visible::after { opacity: 1; transform: translate(-50%, 0); }"
+    "css": ".tip { position: relative; padding: 12px 16px; border: 1px solid #52647c; border-radius: 8px; background: #18243a; color: white; }\n.tip::after { content: attr(data-tip); position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translate(-50%, 4px); padding: 7px 9px; border-radius: 6px; background: #a4f06a; color: #10170c; font-size: 11px; white-space: nowrap; opacity: 0; pointer-events: none; transition: .2s; }\n.tip:hover::after, .tip:focus-visible::after { opacity: 1; transform: translate(-50%, 0); }"
   },
   {
     "id": "skeleton",
@@ -294,7 +294,7 @@
       "skeleton"
     ],
     "html": "<div class=\"skeleton-card\"><div></div><span></span><span></span></div>",
-    "css": ".skeleton-card { width: 180px; padding: 14px; background: #18243a; border-radius: 10px; }\\n.skeleton-card div,.skeleton-card span { display: block; border-radius: 6px; background: linear-gradient(90deg,#26364c 25%,#40536b 50%,#26364c 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }\\n.skeleton-card div { height: 55px; margin-bottom: 12px; } .skeleton-card span { height: 8px; margin-top: 7px; width: 80%; }\\n@keyframes shimmer { to { background-position: -200% 0; } }"
+    "css": ".skeleton-card { width: 180px; padding: 14px; background: #18243a; border-radius: 10px; }\n.skeleton-card div,.skeleton-card span { display: block; border-radius: 6px; background: linear-gradient(90deg,#26364c 25%,#40536b 50%,#26364c 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }\n.skeleton-card div { height: 55px; margin-bottom: 12px; } .skeleton-card span { height: 8px; margin-top: 7px; width: 80%; }\n@keyframes shimmer { to { background-position: -200% 0; } }"
   },
   {
     "id": "spin",
@@ -308,7 +308,7 @@
       "keyframes"
     ],
     "html": "<div class=\"spinner\"></div>",
-    "css": ".spinner { width: 52px; height: 52px; border: 5px solid #344258; border-top-color: #a4f06a; border-radius: 50%; animation: spin 1s linear infinite; }\\n@keyframes spin { to { transform: rotate(360deg); } }"
+    "css": ".spinner { width: 52px; height: 52px; border: 5px solid #344258; border-top-color: #a4f06a; border-radius: 50%; animation: spin 1s linear infinite; }\n@keyframes spin { to { transform: rotate(360deg); } }"
   },
   {
     "id": "pulse",
@@ -322,7 +322,7 @@
       "keyframes"
     ],
     "html": "<div class=\"pulse-dot\"></div>",
-    "css": ".pulse-dot { width: 48px; height: 48px; border-radius: 50%; background: #a4f06a; animation: pulse 1.5s ease-in-out infinite; }\\n@keyframes pulse { 50% { transform: scale(1.22); opacity: .55; } }"
+    "css": ".pulse-dot { width: 48px; height: 48px; border-radius: 50%; background: #a4f06a; animation: pulse 1.5s ease-in-out infinite; }\n@keyframes pulse { 50% { transform: scale(1.22); opacity: .55; } }"
   },
   {
     "id": "float",
@@ -336,7 +336,7 @@
       "keyframes"
     ],
     "html": "<div class=\"float-orb\"></div>",
-    "css": ".float-orb { width: 55px; height: 55px; border-radius: 18px; background: linear-gradient(135deg,#a4f06a,#73d9df); animation: float 3s ease-in-out infinite; }\\n@keyframes float { 50% { transform: translateY(-15px); } }"
+    "css": ".float-orb { width: 55px; height: 55px; border-radius: 18px; background: linear-gradient(135deg,#a4f06a,#73d9df); animation: float 3s ease-in-out infinite; }\n@keyframes float { 50% { transform: translateY(-15px); } }"
   },
   {
     "id": "reduced-motion",
@@ -350,7 +350,7 @@
       "media"
     ],
     "html": "<div class=\"motion-card\">Motion-aware animation</div>",
-    "css": ".motion-card { padding: 22px; background: #18243a; border-radius: 10px; animation: arrive .5s ease both; }\\n@keyframes arrive { from { opacity: 0; transform: translateY(12px); } }\\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } }"
+    "css": ".motion-card { padding: 22px; background: #18243a; border-radius: 10px; animation: arrive .5s ease both; }\n@keyframes arrive { from { opacity: 0; transform: translateY(12px); } }\n@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; } }"
   },
   {
     "id": "sr-only",
@@ -364,7 +364,7 @@
       "accessibility"
     ],
     "html": "<button class=\"icon-only\"><span aria-hidden=\"true\">×</span><span class=\"sr-only\">Close dialog</span></button>",
-    "css": ".icon-only { width: 42px; height: 42px; border: 1px solid #52647c; border-radius: 9px; background: #18243a; color: white; font-size: 22px; }\\n.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }"
+    "css": ".icon-only { width: 42px; height: 42px; border: 1px solid #52647c; border-radius: 9px; background: #18243a; color: white; font-size: 22px; }\n.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }"
   },
   {
     "id": "dark-mode",
@@ -391,7 +391,7 @@
       "accent-color"
     ],
     "html": "<label class=\"check-demo\"><input type=\"checkbox\" checked> I agree to the terms</label>",
-    "css": ".check-demo { display: flex; align-items: center; gap: 10px; color: #eaf0f8; font-size: 13px; }\\n.check-demo input { width: 18px; height: 18px; accent-color: #a4f06a; }"
+    "css": ".check-demo { display: flex; align-items: center; gap: 10px; color: #eaf0f8; font-size: 13px; }\n.check-demo input { width: 18px; height: 18px; accent-color: #a4f06a; }"
   },
   {
     "id": "input-focus",
@@ -405,7 +405,7 @@
       "focus"
     ],
     "html": "<input class=\"pretty-input\" placeholder=\"Your email address\">",
-    "css": ".pretty-input { width: 100%; max-width: 280px; padding: 13px 14px; border: 1px solid #52647c; border-radius: 9px; outline: none; background: #101827; color: white; }\\n.pretty-input:focus { border-color: #a4f06a; box-shadow: 0 0 0 3px #a4f06a25; }"
+    "css": ".pretty-input { width: 100%; max-width: 280px; padding: 13px 14px; border: 1px solid #52647c; border-radius: 9px; outline: none; background: #101827; color: white; }\n.pretty-input:focus { border-color: #a4f06a; box-shadow: 0 0 0 3px #a4f06a25; }"
   },
   {
     "id": "range-slider",
@@ -419,7 +419,7 @@
       "form"
     ],
     "html": "<label class=\"range-demo\">Volume <input type=\"range\" min=\"0\" max=\"100\" value=\"65\"></label>",
-    "css": ".range-demo { display: grid; gap: 12px; color: #eaf0f8; font-size: 12px; width: 220px; }\\n.range-demo input { width: 100%; accent-color: #a4f06a; cursor: pointer; }"
+    "css": ".range-demo { display: grid; gap: 12px; color: #eaf0f8; font-size: 12px; width: 220px; }\n.range-demo input { width: 100%; accent-color: #a4f06a; cursor: pointer; }"
   },
   {
     "id": "custom-scrollbar",
@@ -432,7 +432,7 @@
       "overflow"
     ],
     "html": "<div class=\"scrollbox\"><p>Scroll to explore this custom scrollbar.</p><p>CSS can make small interface details feel intentional.</p><p>Keep scrollbar contrast accessible.</p><p>More content lives here.</p></div>",
-    "css": ".scrollbox { height: 125px; overflow: auto; padding: 14px; background: #18243a; border-radius: 9px; color: #cbd5e1; font-size: 12px; }\\n.scrollbox::-webkit-scrollbar { width: 8px; }\\n.scrollbox::-webkit-scrollbar-track { background: #101827; }\\n.scrollbox::-webkit-scrollbar-thumb { background: #627b5a; border-radius: 9px; }"
+    "css": ".scrollbox { height: 125px; overflow: auto; padding: 14px; background: #18243a; border-radius: 9px; color: #cbd5e1; font-size: 12px; }\n.scrollbox::-webkit-scrollbar { width: 8px; }\n.scrollbox::-webkit-scrollbar-track { background: #101827; }\n.scrollbox::-webkit-scrollbar-thumb { background: #627b5a; border-radius: 9px; }"
   },
   {
     "id": "object-fit",
@@ -446,7 +446,7 @@
       "media"
     ],
     "html": "<div class=\"image-frame\"><div class=\"fake-image\">IMAGE</div></div>",
-    "css": ".image-frame { width: 180px; height: 110px; overflow: hidden; border-radius: 10px; }\\n.fake-image { width: 100%; height: 100%; display: grid; place-items: center; background: linear-gradient(130deg,#315a55,#273b68); color: white; font-weight: 800; object-fit: cover; }"
+    "css": ".image-frame { width: 180px; height: 110px; overflow: hidden; border-radius: 10px; }\n.fake-image { width: 100%; height: 100%; display: grid; place-items: center; background: linear-gradient(130deg,#315a55,#273b68); color: white; font-weight: 800; object-fit: cover; }"
   },
   {
     "id": "container-query",
@@ -460,7 +460,7 @@
       "query"
     ],
     "html": "<div class=\"container-demo\"><div class=\"container-card\">Resize the preview to test</div></div>",
-    "css": ".container-demo { container-type: inline-size; resize: horizontal; overflow: auto; width: 100%; max-width: 340px; padding: 10px; border: 1px dashed #52647c; }\\n.container-card { padding: 16px; background: #18243a; border-radius: 8px; }\\n@container (min-width: 260px) { .container-card { background: #243d2c; color: #caffaa; } }"
+    "css": ".container-demo { container-type: inline-size; resize: horizontal; overflow: auto; width: 100%; max-width: 340px; padding: 10px; border: 1px dashed #52647c; }\n.container-card { padding: 16px; background: #18243a; border-radius: 8px; }\n@container (min-width: 260px) { .container-card { background: #243d2c; color: #caffaa; } }"
   },
   {
     "id": "sticky-footer",
@@ -474,7 +474,7 @@
       "layout"
     ],
     "html": "<div class=\"page-shell\"><header>Header</header><main>Main content</main><footer>Footer stays down</footer></div>",
-    "css": ".page-shell { min-height: 190px; display: flex; flex-direction: column; padding: 12px; background: #18243a; border-radius: 10px; }\\n.page-shell header,.page-shell footer { padding: 10px; background: #26364c; }\\n.page-shell main { flex: 1; padding: 12px; }"
+    "css": ".page-shell { min-height: 190px; display: flex; flex-direction: column; padding: 12px; background: #18243a; border-radius: 10px; }\n.page-shell header,.page-shell footer { padding: 10px; background: #26364c; }\n.page-shell main { flex: 1; padding: 12px; }"
   },
   {
     "id": "backdrop",
@@ -488,7 +488,7 @@
       "modal"
     ],
     "html": "<div class=\"backdrop-scene\"><div class=\"backdrop-panel\">Backdrop blur</div></div>",
-    "css": ".backdrop-scene { min-height: 140px; display: grid; place-items: center; padding: 15px; border-radius: 12px; background: repeating-linear-gradient(45deg,#263b5a 0 12px,#476a63 12px 24px); }\\n.backdrop-panel { padding: 18px 25px; color: white; background: #ffffff30; border: 1px solid #ffffff66; border-radius: 10px; backdrop-filter: blur(8px); }"
+    "css": ".backdrop-scene { min-height: 140px; display: grid; place-items: center; padding: 15px; border-radius: 12px; background: repeating-linear-gradient(45deg,#263b5a 0 12px,#476a63 12px 24px); }\n.backdrop-panel { padding: 18px 25px; color: white; background: #ffffff30; border: 1px solid #ffffff66; border-radius: 10px; backdrop-filter: blur(8px); }"
   },
   {
     "id": "clip-shape",
@@ -515,7 +515,7 @@
       "animation"
     ],
     "html": "<div class=\"ticker\"><div>CSS IS CREATIVE&nbsp; ✳ &nbsp;BUILD SOMETHING GREAT&nbsp; ✳ &nbsp;</div></div>",
-    "css": ".ticker { width: 100%; overflow: hidden; color: #a4f06a; white-space: nowrap; font-weight: 800; }\\n.ticker div { display: inline-block; animation: ticker 9s linear infinite; }\\n.ticker:hover div { animation-play-state: paused; }\\n@keyframes ticker { to { transform: translateX(-35%); } }"
+    "css": ".ticker { width: 100%; overflow: hidden; color: #a4f06a; white-space: nowrap; font-weight: 800; }\n.ticker div { display: inline-block; animation: ticker 9s linear infinite; }\n.ticker:hover div { animation-play-state: paused; }\n@keyframes ticker { to { transform: translateX(-35%); } }"
   },
   {
     "id": "squircle",
@@ -542,7 +542,7 @@
       "pseudo-element"
     ],
     "html": "<ol class=\"steps\"><li>Plan</li><li>Build</li><li>Ship</li></ol>",
-    "css": ".steps { list-style: none; counter-reset: step; padding: 0; color: #eaf0f8; }\\n.steps li { counter-increment: step; margin: 8px 0; }\\n.steps li::before { content: counter(step, decimal-leading-zero); color: #a4f06a; font: 11px 'monospace'; margin-right: 12px; }"
+    "css": ".steps { list-style: none; counter-reset: step; padding: 0; color: #eaf0f8; }\n.steps li { counter-increment: step; margin: 8px 0; }\n.steps li::before { content: counter(step, decimal-leading-zero); color: #a4f06a; font: 11px 'monospace'; margin-right: 12px; }"
   },
   {
     "id": "has-selector",
@@ -556,6 +556,6 @@
       "form"
     ],
     "html": "<label class=\"has-card\"><input type=\"checkbox\"> Select this card</label>",
-    "css": ".has-card { display: flex; gap: 10px; align-items: center; padding: 20px; border: 1px solid #52647c; border-radius: 10px; color: #eaf0f8; }\\n.has-card:has(input:checked) { border-color: #a4f06a; background: #a4f06a12; }\\n.has-card input { accent-color: #a4f06a; }"
+    "css": ".has-card { display: flex; gap: 10px; align-items: center; padding: 20px; border: 1px solid #52647c; border-radius: 10px; color: #eaf0f8; }\n.has-card:has(input:checked) { border-color: #a4f06a; background: #a4f06a12; }\n.has-card input { accent-color: #a4f06a; }"
   }
 ]
