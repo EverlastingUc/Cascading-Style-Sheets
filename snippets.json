@@ -13971,17 +13971,18 @@
     "css": ".demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\\n.demo {\\n  caret-color: hsl(306 75% 60%);\\n}"
   },
   {
-    "id": "css-48-19",
-    "title": "Caret color 19",
-    "category": "Forms",
-    "description": "Style the text input insertion caret. Practical variation 19.",
+    "id": "bounce-animation",
+    "title": "Bounce Animation",
+    "category": "Animations",
+    "description": "Make an element bounce vertically with a reusable keyframe animation.",
     "preview": "circle",
     "tags": [
-      "forms",
-      "caret-color",
-      "css-trick"
+      "bounce",
+      "animation",
+      "keyframes",
+      "motion"
     ],
-    "html": "<div class=\"demo\">✦</div>",
-    "css": ".demo { box-sizing: border-box; max-width: 100%; padding: 18px; color: #f4f7fb; background: #18243a; border-radius: 10px; }\\n.demo {\\n  caret-color: hsl(324 75% 60%);\\n}"
+    "html": "<div class=\"bounce-demo\">Bounce</div>",
+    "css": ".bounce-demo {\n  display: grid;\n  place-items: center;\n  width: 110px;\n  height: 110px;\n  border-radius: 24px;\n  background: #a4f06a;\n  color: #10170c;\n  font-weight: 800;\n  animation: bounce 900ms ease-in-out infinite;\n}\n\n@keyframes bounce {\n  0%, 100% { transform: translateY(0); }\n  45% { transform: translateY(-28px); }\n  60% { transform: translateY(-10px); }\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .bounce-demo { animation: none; }\n}"
   }
 ]
