@@ -38,12 +38,17 @@ Then open the local URL printed by the server.
 ├── styles.css
 ├── app.js
 ├── snippets.json
+├── css/                  # 1,000 individual, named CSS files
+├── scripts/
+│   └── export-css.mjs    # Regenerates css/ from snippets.json
 ├── .nojekyll
 ├── LICENSE
 └── README.md
 ```
 
 ## Add a snippet
+
+Add an object to `snippets.json`. Each entry is also exported as its own descriptive file in `css/` (for example, `css/bounce-animation.css`). The export workflow regenerates these files whenever `snippets.json` changes. You can also run `node scripts/export-css.mjs` locally.
 
 Add an object to `snippets.json`:
 
